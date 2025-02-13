@@ -1,7 +1,13 @@
 => git
 
+-> git config --global user.name "<user_name>" -> Setting user name
+-> git config --global user.email "<user_email>" -> Setting user email
+
+
 -> git init -> Initializing a git repository in .git/
 -> git add <file_name1> <file_name2> .... -> Adding files
    git add . -> Adding all files
-
+-> git commit -m "<commit_message>" -> Commiting changes
+-> git remote add <remote_name> <remote_url> -> Adding remote repository
+-> git push <remote_name> <branch_name> -> Pushing changes
 
