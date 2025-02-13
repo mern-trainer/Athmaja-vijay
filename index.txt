@@ -1,0 +1,7 @@
+=> git
+
+-> git init -> Initializing a git repository in .git/
+-> git add <file_name1> <file_name2> .... -> Adding files
+   git add . -> Adding all files
+
+
