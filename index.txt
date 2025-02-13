@@ -10,4 +10,6 @@
 -> git commit -m "<commit_message>" -> Commiting changes
 -> git remote add <remote_name> <remote_url> -> Adding remote repository
 -> git push <remote_name> <branch_name> -> Pushing changes
+-> git log -> Logging changes
+-> git status -> Showing status
 
