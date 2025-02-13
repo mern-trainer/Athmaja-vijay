@@ -12,4 +12,8 @@
 -> git push <remote_name> <branch_name> -> Pushing changes
 -> git log -> Logging changes
 -> git status -> Showing status
+-> git branch -> Showing branches
+-> git branch <branch_name> -> create branch
+-> git switch <branch_name> -> Switching branch
+
 
