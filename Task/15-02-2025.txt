@@ -1,0 +1,11 @@
+1. Create a news papper report about the current situation in your country.
+    -> Heading
+    -> Images
+    -> Paragraph
+    -> Source
+
+2. Image and video gallery
+    -> Title
+    -> Media
+    -> Date & time
+
