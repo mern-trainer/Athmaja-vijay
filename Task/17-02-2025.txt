@@ -1,0 +1,3 @@
+1. Create a list of students in your class.
+2. Create a list of departments in your college and name of some students as nested list.
+3. Create a question paper for an HTML exam with 5 questions {type number},4 options {type I} and answer {type A} 
