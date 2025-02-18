@@ -1,0 +1,5 @@
+1. Create a signup form with name, username, email, password and confirm password.
+2. Create an appointment booking form with date, time, doctor and patient name.
+3. Create a contact form with name, email, subject and message.
+4. Craete a product list with checkbox.
+5. Create a feedback form with rating (range), name, email and message.
