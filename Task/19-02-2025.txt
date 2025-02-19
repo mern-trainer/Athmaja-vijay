@@ -2,4 +2,6 @@ Create Tables
 
 1. https://media.geeksforgeeks.org/wp-content/uploads/20240116120029/tablerowspan.png
 2. https://i.sstatic.net/ULm5Z.jpg
-3. https://i.ytimg.com/vi/RLhEfkeoJOY/maxresdefault.jpg
+3. https://i.sstatic.net/RImsa.png
+4. https://miro.medium.com/v2/resize:fit:489/1*xdegLAa2CZ2QTEboPYFPlw.png
+5. https://files.codingninjas.in/article_images/html-rowspan-2-1700193649.webp
