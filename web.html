@@ -4,10 +4,78 @@
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* 
+            1. Universal Selector
+            2. Class Selector
+            3. Id Selector
+            4. Tag Selector
+            5. Grouping
+            6. Combinators
+        */
+        *{
+            margin: 0;
+        }
+        .main-heading{ 
+            color: red;
+            background-color: black;
+            padding: 10px;
+        }
+        .main-description{
+            font-size: 20px;
+            color: gray;
+        }
+        #sub-heading{
+            padding: 30px;
+            background-color: gray;
+            color: white;
+        }
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        /* Group Selector */
+        .square{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .squares .square{
+            background-color: green;
+            margin-top: 5px;
+        }
+        /* combinator */
+        .item1, .item2, .item3{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+        .item2{
+            background-color: green;
+        }
+        .item3{
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
     <!-- inline, internal, -->
-    <h2 style="font-size: 20px; color: rgb(133, 133, 133); background-color: black; padding: 15px; margin: 20px; border: 10px solid red;">Hello World</h2>
+    <div class="container">
+        <h1 class="main-heading">Hello</h1>
+        <h3 id="sub-heading">Hello World</h3>
+        <p class="main-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reiciendis sunt autem, modi consequatur optio beatae ex aliquid error illum corporis nisi explicabo, vitae quibusdam repellat consequuntur. Facere, commodi harum.</p>
+    </div>
+    <div class="squares">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div class="square"></div>
+
+    <div class="item1"></div>
+    <div class="item2"></div>
+    <div class="item3"></div>
+
     <!-- Binary Numbers -> 0 and 1  -->
     <!-- 0, 1, 10, 11, 100, 101, 110, 111 -->
     <!-- hex, rgb, hsl -->
