@@ -21,5 +21,11 @@
     position: relative;
 } */
 
-/*  display */
+/*  display -> inline, inline-block, block, flex, grid */
 
+span{
+    display: inline-block;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
