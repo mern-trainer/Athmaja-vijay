@@ -1,31 +1,28 @@
+/*  display -> inline, inline-block, block, flex, grid */
 *{
     margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column; 
+    /* main axis -> x axis -> horizontal */
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 100vh;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* px, %, vh, vw */
 }
 
 .item{
     width: 100px;
     height: 100px;
-    background-color: gray;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    border-radius: 20px;
-}
-
-/* position -> relative, absolute, sticky, fixed */
-
-/* .outer{
-    width: 500px;
-    height: 500px;
     background-color: red;
-    position: relative;
-} */
-
-/*  display -> inline, inline-block, block, flex, grid */
-
-span{
-    display: inline-block;
-    background-color: red;
-    height: 100px;
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
 }
