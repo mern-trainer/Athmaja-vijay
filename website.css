@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Parkinsans", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    height: 60px;
+    align-items: center;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.btn-group{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    font-family: "parkinsans", sans-serif;
+}
+
+header .login{
+    color: #4CAF4F;
+    cursor: pointer;
+}
+
+header .signup{
+    background-color: #4CAF4F;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-icon{
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    color: #4CAF4F;
+}
+
+.hero{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 30px;
+    gap: 30px;
+}
+
+.hero div{
+    width: 100%;
+}
+
+.hero img{
+    width: 300px;
+}
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-left{
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+    .hero{
+        flex-direction: row;
+    }
+    .hero-left{
+        text-align: start;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .toggle-icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .nav{
+        display: none;
+    }
+    .btn-group{
+        display: none;
+    }
+}
